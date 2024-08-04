@@ -5,10 +5,10 @@
 This personal portfolio is a website designed using HTML and CSS which contains an overview of myself as developer for potential employers and interested developers. The website is version controlled with Git and deployed on GitHub Pages for viewing. Primarilty semantic HTML tags were used in the code.
 
 ### Content
-[Wireframes](#Wireframes)
-[Design](#Design)
-[Responsiveness](#Responsiveness)
-[Features](#Features)
+[Wireframes](#Wireframes)  
+[Design](#Design)  
+[Responsiveness](#Responsiveness)  
+[Features](#Features)  
 
 ### Wireframes
 The wireframes were designed in Excalidraw in the initial design phase. The MVP needed to contain a profile picture, a 100 word biography, a preferred contact method, projects section and links to external sites. These were included in the wireframe design. 
@@ -48,6 +48,6 @@ Screen size width <768px
 Button States
 The submit button on the contact form has subtle styling for active and hover states. 
 
-#### Bubmit Button States
+#### Submit Button States
 ![button hover state](/img/button-hover.png)
 ![button active state](/img/button-active.png)
