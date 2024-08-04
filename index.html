@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny Guidetti Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="mobile-header">
+            <img src="./img/logo.png" alt="JG logo" class="logo">
+            <button type="button" class="hamburger-button">
+                <img class="hamburger-icon" src="./img/hamburger.png" alt="three horizontal lines stacked on one another." />
+            </button>
+        </div>
+        <nav class="desktop-nav" aria-label="Primary">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav display-none" aria-label="Primary">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-home">
+            <section id="home" class="home" >
+                <div class="home-content">
+                    <img class="profile-pic" src="./img/profilepic.jpeg" alt="profile picture of jenny sitting in a chair" />
+                    <div class="text-content">
+                        <h1>
+                            HELLO, I'M <br><span class="name">JENNY GUIDETTI</span>
+                        </h1>
+                        <p>I am an aspiring full-stack developer looking to advance my skills and build new projects</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section id="about" class="about">
+                <div class="sub-heading">
+                    <h3>About</h3>
+                    <h2>MY JOURNEY</h2>
+                </div>
+                <div class="about-content">
+                    <p>I began coding in 2024 after attending a free coding workshop where I built a simple game in Python. I was instantly hooked and started my Graduate Certificate in Information Technology Practice (Web Development) where I became acquainted with Node JS. I am now a part of the 2024 She Codes Brisbane Cohort, due to finish in 2025. My interests lean towards back-end development so I am hoping to delve into AI and databases in future projects. Prior to this career change I have previously worked as a paramedic for several years and aspire to use web development to improve healthcare systems. </p>
+                </div>
+            </section>
+            <div class="about-content">
+                <!-- <h4>My Toolbox</h4> -->
+                <section class="languages-articles">
+                    <article>
+                        <img class="icon" src="./img/javascript.png" alt="javascript icon" />
+                        <p>JavaScript</p>
+                    </article>
+                    <article>
+                        <img class="icon" src="./img/html.png" alt="html icon" />
+                        <p>HTML</p>
+                    </article>
+                    <article>
+                        <img class="icon" src="./img/css.png" alt="css icon" />
+                        <p>CSS</p>
+                    </article>
+                    <article>
+                        <img class="icon" src="./img/nodejs.png" alt="node js icon" />
+                        <p>Node.js</p>
+                    </article>
+                    <article>
+                        <img class="icon" src="./img/vscode.png" alt="vs code icon" />
+                        <p>VS Code</p>
+                    </article>
+                    <article>
+                        <img class="icon" src="./img/git.png" alt="git icon" />
+                        <p>Git</p>
+                    </article>
+                    <article>
+                        <img class="icon" src="./img/mysql.png" alt="mysql icon" />
+                        <p>MySQL</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <section id="projects" class="projects">
+                <div class="sub-heading">
+                    <h3>Projects</h3>
+                    <h2>MY EXPERIENCE</h2>
+                </div>
+                <p>Browse through a collection of projects I have worked on since starting my coding journey</p>
+            </section>
+            <section class="projects-articles">
+                <article>
+                    <h4>Asteroid classes</h4>
+                    <p>Node JS functions designed to to analyse NASA comets and asteroids </p>
+                </article>
+                <article>
+                    <h4>Flight search</h4>
+                    <p>Node JS functions designed to analyse flight paths within Australia</p>
+                </article>
+                <article>
+                    <h4>Movies API</h4>
+                    <p>Node JS and Express built API where users can search for movies information from a MySQL database</p>
+                </article>
+            </section>
+        </div>
+        <div class="container-contact">
+            <section id="contact" class="contact-form">
+                <div class="sub-heading" >
+                    <h3>Contact</h3>
+                    <h2>GET IN TOUCH</h2>
+                </div>
+                <p>Feel free to message me with any questions or collaboration ideas</p>
+                <form>
+                    <label for="full-name">Full name</label>
+                    <input type="text" id="full-name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                    <label for="message">Message</label>
+                    <textarea name="message-text" id="message" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="copyright">
+            <h4>© 2024 Jenny Guidetti. All rights reserved.</h4>
+        </section>
+        <section class="socials-icon">
+            <a href="https://github.com/jennyguidetti" target="_blank" title="Check out my GitHub">
+                <img class="socials-icon" src="./img/github.png" alt="GitHub logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/jenny-guidetti-804315313/" target="_blank" title="Contact me on linked-in">
+                <img class="socials-icon" src="./img/linkedin.png" alt="Linked In logo" />
+            </a>
+        </section>
+    </footer>
+</body>
+</html>
