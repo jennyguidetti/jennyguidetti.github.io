@@ -10,8 +10,15 @@ This personal portfolio is a website designed using HTML and CSS which contains 
 [Responsiveness](#Responsiveness)  
 [Features](#Features)  
 
+### MVP
+- One profile picture
+- Biography (min 100 words)
+- Functional contact form
+- "Projects" section
+- Links to external sites (GitHub, LinkedIn)
+
 ### Wireframes
-The wireframes were designed in Excalidraw in the initial design phase. The MVP needed to contain a profile picture, a 100 word biography, a preferred contact method, projects section and links to external sites. These were included in the wireframe design. 
+The wireframes were designed in Excalidraw in the initial design phase. The MVP elements were included in the wireframe design. 
 
 #### Wireframes Desktop
 ![desktop home page wireframe](./img/wireframe-desktop-home.png)
@@ -51,3 +58,6 @@ The submit button on the contact form has subtle styling for active and hover st
 #### Submit Button States
 ![button hover state](/img/button-hover.png)
 ![button active state](/img/button-active.png)
+
+### Future Improvements
+- Making the contact page usable
