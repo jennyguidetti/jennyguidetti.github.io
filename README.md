@@ -11,6 +11,7 @@ This personal portfolio is a website designed using HTML and CSS which contains 
 [Features](#Features)  
 
 ### MVP
+These are the main elements of the portfolio
 - One profile picture
 - Biography (min 100 words)
 - Functional contact form
