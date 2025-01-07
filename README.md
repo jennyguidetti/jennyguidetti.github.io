@@ -1,6 +1,6 @@
 #  Jenny Guidetti - Portfolio Task
 ​
-[My Portfolio Site](https://jennyguidetti.github.io/)
+[Link to Portfolio Site](https://jennyguidetti.github.io/)
 
 This personal portfolio is a website designed using HTML and CSS which contains an overview of myself as developer for potential employers and interested developers. The website is version controlled with Git and deployed on GitHub Pages for viewing. Primarilty semantic HTML tags were used in the code.
 
