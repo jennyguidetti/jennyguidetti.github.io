@@ -1,4 +1,4 @@
-#  Jenny Guidetti - Portfolio Task
+#  Personal Portfolio
 ​
 [Link to Portfolio Site](https://jennyguidetti.github.io/)
 
